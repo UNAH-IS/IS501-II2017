@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AF35D77-5B48-BF68-B346-FA36CE5344F2" name="TBL_ESTADOS_CIVILES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-05 19:21:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_CIVIL" id="55202594-C4FE-2E88-CC14-7721B5B61F8E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-05 19:28:00 UTC</createdTime>
+<commentInRDBMS>CAMPO QUE IDENTIFICA DE FORMA UNICA UN ESTADO CIVIL</commentInRDBMS>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_CIVIL" id="1B421795-45FC-1FF4-2EB9-B46A4D7F22D8">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-05 19:28:00 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7132721E-5BC9-0C2B-375E-A56DEDC032C9" name="TBL_ESTADOS_CIVILES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-05 19:28:00 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55202594-C4FE-2E88-CC14-7721B5B61F8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

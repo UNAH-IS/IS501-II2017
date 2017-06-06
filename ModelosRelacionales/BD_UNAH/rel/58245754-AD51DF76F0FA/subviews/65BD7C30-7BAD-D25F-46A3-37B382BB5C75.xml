@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="65BD7C30-7BAD-D25F-46A3-37B382BB5C75">
+<createdBy>ErickVladimir</createdBy>
+<modifiedBy>ErickVladimir</modifiedBy>
+<createdTime>2017-06-05 19:17:33 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="2AF35D77-5B48-BF68-B346-FA36CE5344F2" otype="Table" vid="CD60F8A8-089C-BBDE-6EF2-2E30026A4A00">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="49" y="51" width="306" height="94"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="49D47034-2CC9-B48E-DAF8-B15D17837B99" otype="Table" vid="B88BD653-D026-85AB-B269-59E276FFEF1C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="463" y="39" width="342" height="242"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="5206E838-739C-31B2-BD58-6F70870D46B8" otype="Table" vid="619D3125-6420-66A9-394D-61E676C1F6AF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="57" y="165" width="281" height="90"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C75771B2-9A1C-EBAD-C226-A5DD0818B539" otype="Table" vid="EFEF9482-52E9-878E-ABE1-06BD373F31E7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="49" y="311" width="255" height="99"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="763096F0-B523-A50A-421E-DFE7D8540D75" otype="FKIndexAssociation" vid_source="CD60F8A8-089C-BBDE-6EF2-2E30026A4A00" vid_target="B88BD653-D026-85AB-B269-59E276FFEF1C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="355" y="102"/>
+<point x="463" y="102"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

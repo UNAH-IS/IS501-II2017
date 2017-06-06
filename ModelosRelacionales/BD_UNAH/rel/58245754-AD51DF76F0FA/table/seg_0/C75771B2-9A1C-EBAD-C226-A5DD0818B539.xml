@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C75771B2-9A1C-EBAD-C226-A5DD0818B539" name="TBL_CARRERAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-05 19:34:19 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CARRERA" id="1434D684-C2A4-4AE7-C30D-5A61A529BE42">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-05 19:36:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CARRERA" id="C000C929-8953-2C81-B2FD-17B30B328649">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-05 19:36:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_CLASES" id="78DF603D-CFB4-FA72-E7C5-82B05D6272A8">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-05 19:36:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="F72D681F-D937-7022-DD49-D9F2B42A1A75">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-05 19:36:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D54EF31-B643-46EB-4EFB-ABB376D6DD74" name="TBL_CARRERAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-05 19:36:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1434D684-C2A4-4AE7-C30D-5A61A529BE42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
