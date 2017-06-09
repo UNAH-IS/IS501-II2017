@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5550E7C4-965D-4181-BFE1-42C04E9F6E7A" name="TBL_CARRERAS_X_PERSONA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-06 19:18:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERSONA" id="6B3A6AB4-E1F1-1601-3D18-22B252DE618C">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-06 19:23:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67AC7D77-0A2A-16BC-EA4C-D4D1469D851D" referredColumn="F7851D43-F7F7-7987-7071-96B15E9BFA73"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="20EFAB59-6159-74D2-C232-9C10F06F6025">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-06 19:24:08 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E28C6952-0278-8CE2-729B-BC47AC3DBBD3" referredColumn="1434D684-C2A4-4AE7-C30D-5A61A529BE42"/>
+</associations>
+</Column>
+<Column name="PROMEDIO" id="0DE34D14-969D-24A1-AAEC-64D179D7E607">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-06 19:23:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="9A1821E6-00CE-7B8B-20C2-B0A382D2635C">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-06 19:23:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0176049E-6476-7C18-E9C7-49E4F66DCAC7" name="TBL_CARRERAS_X_PERSONA_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-06 19:27:19 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B3A6AB4-E1F1-1601-3D18-22B252DE618C"/>
+<colUsage columnID="20EFAB59-6159-74D2-C232-9C10F06F6025"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF9AAF2B-035E-9610-5CD0-EDD21A0E71B2" name="TBL_CARRERAS_X_PERSONA_TBL_PERSONAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-06 19:23:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B3A6AB4-E1F1-1601-3D18-22B252DE618C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBDB6DBD-4A27-3F35-6435-B0B940CE7387" name="TBL_CARRERAS_X_PERSONA_TBL_CARRERAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-06 19:24:08 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20EFAB59-6159-74D2-C232-9C10F06F6025"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C7DE319-D81E-8DF2-F745-6D6E76F9633F" name="TBL_EDIFICIOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:49:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EDIFICIO" id="077F80C5-7455-2A48-B6CA-BED8FF32F4D3">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:51:17 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CAMPUS" id="6B96EF4D-E0AE-D8BC-39D4-CD32EF746309">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:54:30 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11DA6326-28A5-4868-2DE9-2754E57D5E8E" referredColumn="47DD5551-9596-4F93-C42F-4D2DB8FBF934"/>
+</associations>
+</Column>
+<Column name="NOMBRE_EDIFICIO" id="D8636377-62FB-AAF4-FA6E-E012E257CEAF">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:51:17 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALIAS" id="1EE8C4FF-A310-B9A4-2ED8-4B953FD55AA6">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:51:17 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="372EC37A-E5F6-CFDF-B849-FACD13D11A66" name="TBL_EDIFICIOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:51:17 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="077F80C5-7455-2A48-B6CA-BED8FF32F4D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D99C9BE4-7414-CA3C-3089-7B1A90018194" name="TBL_EDIFICIOS_TBL_CAMPUS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:54:30 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B96EF4D-E0AE-D8BC-39D4-CD32EF746309"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

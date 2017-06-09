@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A655FCA-CB2B-7B6A-7CB4-ECC9A8551ECD" name="TBL_ESTADOS_MATRICULA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:24:17 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_MATRICULA" id="0E060FA0-8449-E52D-8FA1-103A23ABB468">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:24:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_MATRICULA" id="F656A55D-2BD3-A741-292A-CB6297A3AEC2">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:24:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EE1FAAB-84DB-992B-BDD7-F221CADC35B5" name="TBL_ESTADOS_MATRICULA_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:24:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E060FA0-8449-E52D-8FA1-103A23ABB468"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

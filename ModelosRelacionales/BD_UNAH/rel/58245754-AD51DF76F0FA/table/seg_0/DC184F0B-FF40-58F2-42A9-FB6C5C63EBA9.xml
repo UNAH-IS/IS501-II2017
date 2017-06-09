@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC184F0B-FF40-58F2-42A9-FB6C5C63EBA9" name="TBL_MATRICULA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:19:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SECCION" id="192B98CF-332F-B818-8090-25790BEF91F4">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:25:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F43027C6-36E4-94AF-760E-6CA7DC209B68" referredColumn="DE5D8DD1-EB5C-3F5E-B1B3-B12A7507FE75"/>
+</associations>
+</Column>
+<Column name="CODIGO_ALUMNO" id="B4982885-81E0-1BB7-3E73-4558BD4AF32F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:25:28 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52077C17-147B-4F44-4092-A5CF45C28511" referredColumn="D203D0D9-27DC-2B6B-EC33-629786F34297"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_MATRICULA" id="A90E19C0-6B02-78C1-6A63-C78EF2543969">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:26:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="811F13DA-8CCC-30DB-A32D-F2C0AD86ED55" referredColumn="0E060FA0-8449-E52D-8FA1-103A23ABB468"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_MATRICULA" id="15D55E1E-FD26-B6AA-CAFA-6A42524FDE30">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:24:12 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_LISTA" id="D059E4BF-AF7B-F5C3-A135-AB705237841F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:24:12 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6CB3AA9-F22B-01D3-4B1B-D194FE091A5F" name="TBL_MATRICULA_TBL_SECCIONES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:25:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="192B98CF-332F-B818-8090-25790BEF91F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F42D4A02-4A90-69C3-2F9F-5CE8AEE0E432" name="TBL_MATRICULA_TBL_ALUMNO_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:25:28 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4982885-81E0-1BB7-3E73-4558BD4AF32F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8285F5D-51FD-759D-3DB2-DDA6DF2B61FE" name="TBL_MATRICULA_TBL_ESTADOS_MATRICULA_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-08 19:26:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A90E19C0-6B02-78C1-6A63-C78EF2543969"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

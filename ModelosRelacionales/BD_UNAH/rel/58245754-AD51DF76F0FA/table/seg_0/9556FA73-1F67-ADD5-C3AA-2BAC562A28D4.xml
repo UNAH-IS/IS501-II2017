@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9556FA73-1F67-ADD5-C3AA-2BAC562A28D4" name="TBL_ASIGNATURAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:18:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ASIGNATURA" id="C72D0C0F-CE70-3E0A-E531-AEC81B329E37">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:24:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ALTERNO" id="600BB67C-3C48-99CD-ABE6-3F66130C9EEA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:24:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CARRERA" id="0BE062BC-5AE4-D0CB-11C5-FE0392233E82">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:24:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D8592F6-32C4-7354-E5BE-53C73E3FE6BC" referredColumn="1434D684-C2A4-4AE7-C30D-5A61A529BE42"/>
+</associations>
+</Column>
+<Column name="NOMBRE_ASIGNATURA" id="6E6CB20C-387C-1210-3AAD-9D8469B7AF8A">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:24:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDADES_VALORATIVAS" id="69F2C132-9DE9-FE89-A6BA-FF37233DE298">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:24:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1392B18-1C5C-FE4D-D437-9928172A3B2B" name="TBL_ASIGNATURAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:24:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C72D0C0F-CE70-3E0A-E531-AEC81B329E37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33F68DD0-29C3-B5AD-F119-A2BC3CAC2E11" name="TBL_ASIGNATURAS_TBL_CARRERAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-07 19:24:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BE062BC-5AE4-D0CB-11C5-FE0392233E82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
