@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CF6ECBB-7A23-2E52-1BA6-BED4E3FE3CBA" name="TBL_LUGARES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:27:53 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="05E38D30-7328-52B7-CE11-4C3DB8F5C41B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:28:46 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LUGAR" id="F96BE20D-9D23-CF84-D0DD-866174F28ECE">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:28:46 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="24A2243F-C2D4-3843-A962-698A55A0A3E7">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:28:46 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="C27CFD4E-6D65-448A-BF7E-F59FBC21F59F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:28:46 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="6A31FEA1-83EC-D715-BE21-4BE04ED2337D">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:28:46 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="EBBF6F7C-DFD4-D1FD-5AC4-019059924D11">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:29:10 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="603FC707-B98F-FFD5-081C-9AB3025FA3B4" referredColumn="05E38D30-7328-52B7-CE11-4C3DB8F5C41B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BA803D9-4079-317C-EC94-297AA091CB25" name="TBL_LUGARES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:28:46 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05E38D30-7328-52B7-CE11-4C3DB8F5C41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07C27B4D-1E61-B5BE-FB7C-9F1C208D2951" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:29:10 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBBF6F7C-DFD4-D1FD-5AC4-019059924D11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

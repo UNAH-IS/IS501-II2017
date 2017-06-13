@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C14E7B0-6511-CB77-1E8A-3520E795283B" name="TBL_TIPOS_USUARIOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:27:21 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_USUARIO" id="2D226BE8-5993-F1AD-3B53-0ABFD5D5CC38">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:27:46 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_USUARIO" id="5ABAD5A9-09B4-7F73-2AB9-B52E32ABD13E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:27:46 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DB29E20-51A8-E46D-2E69-44B54E2E5D6C" name="TBL_TIPOS_USUARIOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:27:46 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D226BE8-5993-F1AD-3B53-0ABFD5D5CC38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

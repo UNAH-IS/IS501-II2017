@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E676FB67-977D-B187-3B95-F14091BF4A59" name="TBL_USUARIOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:22:05 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="11AD8E5F-719F-7AC0-D964-DA7EADAC4641">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_USUARIO" id="F6790738-63ED-D143-CC48-62FF60BCA55B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:28:53 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="993CCC4B-1049-958C-2135-B84A794B573A" referredColumn="2D226BE8-5993-F1AD-3B53-0ABFD5D5CC38"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR" id="699BF87C-DFB7-0235-A09A-A9D4BAE527C9">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:29:02 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C64D1383-9567-DA3C-1023-AA68BBBBDCA1" referredColumn="05E38D30-7328-52B7-CE11-4C3DB8F5C41B"/>
+</associations>
+</Column>
+<Column name="ALIAS_USUARIO" id="8F84D522-53C8-92AE-2978-F62E76245590">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="4C54C79F-15E9-5F2B-2ED6-9ADB2E0A3939">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="235DC26F-378D-841C-25BB-FB2410DD3EFF">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="3A2924FA-BAC1-E5FD-18FB-E41400B00D51">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAGINA_WEB" id="1F44D757-6BBA-1DAF-7FD2-41DCF0B2C363">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENIA" id="DEE708BF-74A8-F181-C7EB-0FD2C969C59B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="A2EA8DD0-AB1D-20DB-4954-7B67ECB34D1C">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="0281252A-9DA0-D31B-D68F-BAABBDE76E5A">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTOGRAFIA" id="C0191322-19C1-139D-CAC3-546BA52B2D04">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB34EB0A-1227-3DBF-3A9E-A61ED577CB44" name="TBL_USUARIOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:26:48 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11AD8E5F-719F-7AC0-D964-DA7EADAC4641"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="115CB519-9D5E-A588-CC11-C630DE64C311" name="TBL_USUARIOS_TBL_TIPOS_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:28:53 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6790738-63ED-D143-CC48-62FF60BCA55B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E566D963-5331-93D0-5A89-06D743C42ABA" name="TBL_USUARIOS_TBL_LUGARES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:29:02 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="699BF87C-DFB7-0235-A09A-A9D4BAE527C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

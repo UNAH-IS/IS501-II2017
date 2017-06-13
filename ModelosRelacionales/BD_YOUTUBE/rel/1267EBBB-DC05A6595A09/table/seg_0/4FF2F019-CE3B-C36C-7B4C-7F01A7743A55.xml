@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FF2F019-CE3B-C36C-7B4C-7F01A7743A55" name="TBL_LICENCIAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:37:33 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LICENCIA" id="9D53FBC1-2901-0873-23C4-A5363B7CBB8F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:38:15 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LICENCIA" id="6FD5E117-2B45-0158-214C-43FB61742339">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:38:15 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="158E824E-3517-5B63-163B-871EB03905C3" name="TBL_LICENCIAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-12 19:38:24 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D53FBC1-2901-0873-23C4-A5363B7CBB8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
