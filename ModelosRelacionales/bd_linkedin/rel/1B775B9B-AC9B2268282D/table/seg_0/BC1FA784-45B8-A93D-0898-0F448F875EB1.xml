@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC1FA784-45B8-A93D-0898-0F448F875EB1" name="TBL_USUARIOS_X_GRUPO">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:18:43 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA_REGISTRO" id="C1DDA187-1DE4-5A5F-17A6-EB5A5DAB3F7E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:20:30 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_USUARIOS_CODIGO_USUARIO" id="D9393350-E885-59EB-B5CB-CB9D4FE522D4">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:20:36 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A6EDF4E-282C-48ED-41EA-C6818F4958F4" referredColumn="9C9ED972-959B-29FD-2C0F-D3B6760543FB"/>
+</associations>
+</Column>
+<Column name="TBL_GRUPOS_CODIGO_GRUPO" id="0EE549C4-4A36-E8C7-BBCA-AF03370CD76F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:20:40 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="456F524C-E73B-E9C7-318F-8F99650CB909" referredColumn="AF6E7CB4-EE1E-A382-43A7-1129FF464C53"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE64E94C-D294-00B1-A13D-F228C0236EAD" name="TBL_USUARIOS_X_GRUPO_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:20:36 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9393350-E885-59EB-B5CB-CB9D4FE522D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF66969B-0CCB-8640-97FF-9F65AC6F2A04" name="TBL_USUARIOS_X_GRUPO_TBL_GRUPOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:20:40 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EE549C4-4A36-E8C7-BBCA-AF03370CD76F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

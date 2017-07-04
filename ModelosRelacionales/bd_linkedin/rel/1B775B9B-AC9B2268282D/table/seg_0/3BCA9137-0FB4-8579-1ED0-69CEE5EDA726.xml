@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BCA9137-0FB4-8579-1ED0-69CEE5EDA726" name="TBL_TIPOS_USUARIOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:13:44 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_USUARIO" id="E0FE01DC-0D69-E612-1AE0-E53362C3F0B6">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:14:27 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_USUARIO" id="D2002F24-3B19-4C77-5940-A927E302C565">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:14:27 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="26BB7F01-65B8-8415-63D7-01BA16F713D6">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:14:27 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="753A1E79-4228-D28E-E2FF-B4E75032C34F" name="TBL_TIPOS_USUARIOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:14:27 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0FE01DC-0D69-E612-1AE0-E53362C3F0B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

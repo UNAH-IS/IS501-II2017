@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37057F9D-79E6-91AF-0A99-DE26B28C5F0C" name="TBL_EMPRESAS_X_USUARIOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:53:07 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="9FCD01C9-87AC-E056-30E9-60BAA6B8BF6E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:53:44 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61C7B10A-CE78-5235-C612-9C9BDEBBE019" referredColumn="9C9ED972-959B-29FD-2C0F-D3B6760543FB"/>
+</associations>
+</Column>
+<Column name="CODIGO_EMPRESA" id="CFC177A1-0B58-7ED9-4243-938AF0BADAF7">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:53:48 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C784E1F2-A237-F6E0-A68F-F1A6E0442BD3" referredColumn="E7030F7E-6D03-D1B7-75E6-C680EABCA864"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO" id="3E413F92-4623-F6D2-928F-C558D9B0B2B0">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:53:33 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="ADEF43A3-5F35-B916-8575-E1568A1ADF6A">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:53:33 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0A72057-5165-BCB7-EA88-4369B1F5C591" name="TBL_EMPRESAS_X_USUARIOS_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:53:44 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FCD01C9-87AC-E056-30E9-60BAA6B8BF6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E238C63E-34BC-6627-F54D-85E11162FAB8" name="TBL_EMPRESAS_X_USUARIOS_TBL_EMPRESAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:53:48 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFC177A1-0B58-7ED9-4243-938AF0BADAF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

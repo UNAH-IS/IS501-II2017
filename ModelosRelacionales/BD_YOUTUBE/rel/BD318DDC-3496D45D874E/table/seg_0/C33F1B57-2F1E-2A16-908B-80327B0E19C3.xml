@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C33F1B57-2F1E-2A16-908B-80327B0E19C3" name="TBL_COMPARTIR">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:26:07 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VIDEO" id="92CE7845-4676-3C34-F400-BA957F63453B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:28:02 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB2EA9B5-D4FC-8558-FA0B-418CAF602559" referredColumn="EDFE2C35-6F88-E1C6-04F2-FEC5EFC48837"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="6E06BA29-2F09-2CD5-69DA-A0019956F086">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:28:18 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="681A877D-FFA5-A339-49FC-5826825C5D87" referredColumn="BBC431B6-23D8-C0B2-A9C6-6FE9EC170026"/>
+</associations>
+</Column>
+<Column name="CODIGO_PLATAFORMAS" id="9135C946-3625-7B07-F975-ACF1E6238888">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:29:45 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="160C48A6-F9E6-0C7F-2C56-73FEA89141FE" referredColumn="C37EBAAA-6E3A-FD4C-8A14-122E3523D99C"/>
+</associations>
+</Column>
+<Column name="FECHA_COMPARTIR" id="20ACE044-ED36-7097-7DD9-D7DA01AC60F2">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:27:36 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF7224BF-8C59-CC6D-E848-3B2799AFDCDB" name="TBL_COMPARTIR_TBL_VIDEOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:28:02 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92CE7845-4676-3C34-F400-BA957F63453B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6951B1B7-21D9-F53F-7CBF-0ED7B8D5344F" name="TBL_COMPARTIR_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:28:18 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E06BA29-2F09-2CD5-69DA-A0019956F086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C488C101-9EEE-539D-AE80-A7146450277C" name="TBL_COMPARTIR_TBL_PLATAFORMAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:29:45 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9135C946-3625-7B07-F975-ACF1E6238888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

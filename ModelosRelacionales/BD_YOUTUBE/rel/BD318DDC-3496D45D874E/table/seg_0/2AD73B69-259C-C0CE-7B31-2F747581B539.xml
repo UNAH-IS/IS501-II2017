@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AD73B69-259C-C0CE-7B31-2F747581B539" name="TBL_REGISTRO_REACCIONES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:47:08 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VIDEO" id="C2B86FFA-B76B-3F49-737E-AB68B4898D58">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:47:52 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FBC1499-E170-B65C-A988-91251D38A139" referredColumn="EDFE2C35-6F88-E1C6-04F2-FEC5EFC48837"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="86AD2859-A553-97A5-6A10-9E64FC97DE02">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:47:56 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44DEFE92-27FA-3901-9D2C-C2C62CFF61F6" referredColumn="BBC431B6-23D8-C0B2-A9C6-6FE9EC170026"/>
+</associations>
+</Column>
+<Column name="CODIGO_COMENTARIO" id="E7DBE297-54B9-36B4-86DF-9F198A773789">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:22:17 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0371F46E-AE1D-07D0-3117-95760D6A2874" referredColumn="9943E373-BCF3-F1D8-E8A7-8C2BD4192436"/>
+</associations>
+</Column>
+<Column name="CODIGO_REACCION" id="0CB1AC71-E7EE-2356-46B9-452A95350523">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:48:03 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A2AE555-5AE3-4D14-B0AC-3D374C0931E9" referredColumn="59B3D10F-9BB5-4ADF-9ADD-48C0DCC67A0F"/>
+</associations>
+</Column>
+<Column name="FECHA_REACCION" id="3E661F7F-4166-FFE3-220B-30C687360C40">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:47:46 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46864C0E-9805-1ABA-47A8-0EA8AD36492F" name="TBL_REGISTRO_REACCIONES__UN">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:27:14 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2B86FFA-B76B-3F49-737E-AB68B4898D58"/>
+<colUsage columnID="86AD2859-A553-97A5-6A10-9E64FC97DE02"/>
+<colUsage columnID="E7DBE297-54B9-36B4-86DF-9F198A773789"/>
+<colUsage columnID="0CB1AC71-E7EE-2356-46B9-452A95350523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FB8D080-47F3-C3BD-FB6E-389C6812234A" name="TBL_REGISTRO_REACCIONES_TBL_VIDEOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:47:52 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2B86FFA-B76B-3F49-737E-AB68B4898D58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C88C1681-565B-E9B9-EB29-2F3C9C4F2ED2" name="TBL_REGISTRO_REACCIONES_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:47:56 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86AD2859-A553-97A5-6A10-9E64FC97DE02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F643090-20FA-5740-F352-BC3EF6B0E2C6" name="TBL_REGISTRO_REACCIONES_TBL_TIPOS_REACCIONES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:48:03 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CB1AC71-E7EE-2356-46B9-452A95350523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42D9AA2D-1586-AD21-E4CE-3E4988462CC5" name="TBL_REGISTRO_REACCIONES_TBL_COMENTARIO_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:22:17 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7DBE297-54B9-36B4-86DF-9F198A773789"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

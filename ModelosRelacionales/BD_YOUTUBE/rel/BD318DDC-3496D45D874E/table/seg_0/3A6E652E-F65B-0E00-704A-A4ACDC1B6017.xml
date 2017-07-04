@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A6E652E-F65B-0E00-704A-A4ACDC1B6017" name="TBL_SUBTITULOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 17:56:44 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SUBTITULO" id="ABBFB6B1-2799-A6EB-4863-AA710113C55F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:37:17 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARCHIVO_SUBTITULOS" id="F6374231-E5C0-AA92-8B97-8C1175E40870">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:37:17 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_VIDEOS_CODIGO_VIDEO" id="F941614A-37B8-16B9-0DF0-5F59E87BB3F6">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:37:55 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4589114F-F85F-9073-F98A-7730F2B7B124" referredColumn="EDFE2C35-6F88-E1C6-04F2-FEC5EFC48837"/>
+</associations>
+</Column>
+<Column name="TBL_IDIOMAS_CODIGO_IDIOMA" id="67D1AD1B-23DB-541F-A320-E0B3D70A2ADC">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:38:01 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41FA49B6-B7DD-649D-EE23-29885CECC471" referredColumn="2E4DF449-B57C-CAC4-4CAB-308D246D5157"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD707E61-3043-5E18-2954-CEA3D26911E2" name="TBL_SUBTITULOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:37:48 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABBFB6B1-2799-A6EB-4863-AA710113C55F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9D0ACDA-CD98-C6F4-80B4-F8BF91F5927F" name="TBL_SUBTITULOS_TBL_VIDEOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:37:55 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F941614A-37B8-16B9-0DF0-5F59E87BB3F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="813D1807-47D4-477B-480D-F7DF737D6F66" name="TBL_SUBTITULOS_TBL_IDIOMAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:38:01 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67D1AD1B-23DB-541F-A320-E0B3D70A2ADC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

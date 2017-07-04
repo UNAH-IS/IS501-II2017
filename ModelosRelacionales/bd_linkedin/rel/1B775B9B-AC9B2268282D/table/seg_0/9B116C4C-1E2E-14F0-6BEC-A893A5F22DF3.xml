@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B116C4C-1E2E-14F0-6BEC-A893A5F22DF3" name="TBL_ESTADOS_CONEXIONES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:41:23 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_CONEXION" id="EEA878E0-D418-D90E-AC94-CA9761F9089E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:42:03 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_CONEXION" id="DFD69DE1-4644-15D9-7B5D-0EDA9F039873">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:42:03 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1704B1F3-F4C3-AA8B-287B-29E566006EC7" name="TBL_ESTADOS_CONEXIONES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:42:03 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEA878E0-D418-D90E-AC94-CA9761F9089E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

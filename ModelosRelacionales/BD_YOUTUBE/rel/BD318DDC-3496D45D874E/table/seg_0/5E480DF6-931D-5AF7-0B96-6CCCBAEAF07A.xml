@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E480DF6-931D-5AF7-0B96-6CCCBAEAF07A" name="TBL_VELOCIDADES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:41:01 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VELOCIDAD" id="C14436C7-ADF7-95A1-2E44-AD18DCB9BEA5">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:41:38 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_VELOCIDAD" id="7C3DC6C4-CB4D-E74A-F23C-32BC04499851">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:41:38 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6374118-96A5-B6CE-5032-A10D0291F499" name="TBL_VELOCIDADES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:41:38 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C14436C7-ADF7-95A1-2E44-AD18DCB9BEA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

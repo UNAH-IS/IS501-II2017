@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE4992D2-96B4-7AEE-8D44-D4FB031AE615" name="TBL_USUARIOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:09:13 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="9C9ED972-959B-29FD-2C0F-D3B6760543FB">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:12:39 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_GENERO" id="7D47F980-0C0E-666B-59D8-71ACADE83E4A">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:13:22 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D43F529A-B5D2-DFE7-2ABE-FC6860825491" referredColumn="54EF70C4-853B-2F2B-CA34-5DB0CF67CF8B"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_USUARIO" id="1D1CCFEB-FFBA-F102-8A1D-340DCCBA52C0">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:14:29 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A10E152E-C2D2-DAEC-6620-AA2C74EE09F7" referredColumn="E0FE01DC-0D69-E612-1AE0-E53362C3F0B6"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="4F68D610-F849-DFBD-62B7-3A5FA847105B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:12:39 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="A4610BE2-5FF2-1EC1-AD2D-34E64DF335A0">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:12:39 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="EBEDE804-AA3D-92F1-C3B0-5D9B93555512">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:12:39 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="4B90E1FB-6A1B-ECD5-8C5D-27E2E31BA252">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:12:39 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="CEDCE83E-9047-209E-78E7-22D138BDF056">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:12:39 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="03D88E1E-4875-6FA7-FC30-A099AD880AB1">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:12:39 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE43A8B4-99C8-E3EA-3778-10285A4883F9" name="TBL_USUARIOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:12:39 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C9ED972-959B-29FD-2C0F-D3B6760543FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFE84855-5A16-8899-F710-31F4915B5585" name="TBL_USUARIOS_TBL_GENEROS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:13:22 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D47F980-0C0E-666B-59D8-71ACADE83E4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B86A0EF4-3388-0557-BFFE-E7E59A994F11" name="TBL_USUARIOS_TBL_TIPOS_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:14:29 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D1CCFEB-FFBA-F102-8A1D-340DCCBA52C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

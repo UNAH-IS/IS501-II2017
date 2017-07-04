@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1C2D3A0-F3C0-3C7C-9E3F-FBB3301F828E" name="TBL_COMENTARIOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:19:04 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="A5BF3515-9290-CCC3-6298-DA319B41A5C3">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:20:05 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMENTARIO" id="5874F03D-4675-13D0-E739-72F408DBA675">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:20:05 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="790B499D-DC17-1DAF-676D-9BA0385D95A6">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:20:05 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PUBLICACION" id="D3752E3F-58B3-31E3-FDFD-30A3E1D0958D">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:20:26 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06DD2520-717D-3574-C275-C2F3262F01DA" referredColumn="0CB11F59-46B0-0C94-4F21-9FEE83893487"/>
+</associations>
+</Column>
+<Column name="CODIGO_COMENTARIO_1" id="DB8660EF-18A1-8210-BCF0-3DC3ECB41DB5">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:20:35 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1630A03-4E2C-B57A-9E9A-C9EA366EA028" referredColumn="A5BF3515-9290-CCC3-6298-DA319B41A5C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CF6A224-4BC1-1FE6-68F9-3B852C8CFD9E" name="TBL_COMENTARIOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:20:05 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5BF3515-9290-CCC3-6298-DA319B41A5C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="620E65E1-401E-C013-65A6-F6C7456FADBE" name="TBL_COMENTARIOS_TBL_PUBLICACION_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:20:26 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3752E3F-58B3-31E3-FDFD-30A3E1D0958D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7BF4887-9CE2-93AD-8711-E6C55E43F974" name="TBL_COMENTARIOS_TBL_COMENTARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:20:35 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB8660EF-18A1-8210-BCF0-3DC3ECB41DB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

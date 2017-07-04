@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0E3F7A8-719C-40AD-4CEF-CA49ABDE9A03" name="TBL_ARTISTAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:31:12 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ARTISTAS" id="541A4DDF-0E81-C56A-F7D0-483BA949E117">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:34:16 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ARTISTA" id="37B54335-3E00-196A-0088-06D12CDF978E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:34:16 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAGINA_WEB" id="C7EE8E8F-4EC6-0B14-2623-D369C4E1A0CD">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:34:16 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="818EA1AA-3C34-BC0C-4F0C-BD1594823693">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:34:16 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29618602-3700-2D22-3BFB-EAE9F63ADBD5" name="TBL_ARTISTAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:34:16 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="541A4DDF-0E81-C56A-F7D0-483BA949E117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

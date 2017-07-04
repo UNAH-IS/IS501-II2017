@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A67E300-8AD9-CFB4-CE78-384955F7FD86" name="TBL_APROBACIONES_X_USUARIO">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:56:04 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="AA402AA2-2546-9E4E-2ED7-93A7DFBF5D42">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:56:04 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D75AF465-F676-D322-3D80-9844E4EA8F70" referredColumn="9C9ED972-959B-29FD-2C0F-D3B6760543FB"/>
+</associations>
+</Column>
+<Column name="CODIGO_HABILIDAD" id="A1A3D5D4-B5C7-EFCB-56A6-EC22337DC7F9">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:56:04 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86C2AF2F-71DE-CFFB-177B-0048B4BCECCE" referredColumn="C928F755-042C-A1F3-E15F-EECE89EF6242"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_APRUEBA" id="DB34F6F2-3897-AD7C-8C9F-599A784CE550">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:56:45 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="514EA971-FFCE-01CD-9D95-A62544693065" referredColumn="9C9ED972-959B-29FD-2C0F-D3B6760543FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEF98F2A-86E2-BA5C-512E-D1ED42E07BFA" name="TBL_HABILIDADES_X_USUARIOv1_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:56:04 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA402AA2-2546-9E4E-2ED7-93A7DFBF5D42"/>
+<colUsage columnID="A1A3D5D4-B5C7-EFCB-56A6-EC22337DC7F9"/>
+<colUsage columnID="DB34F6F2-3897-AD7C-8C9F-599A784CE550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FE2DF88-977D-C82E-F83E-F959BDB39794" name="TBL_HABILIDADES_X_USUARIOv1_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:56:04 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA402AA2-2546-9E4E-2ED7-93A7DFBF5D42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15CABB74-5680-90F3-54FD-03E8B11BE337" name="TBL_HABILIDADES_X_USUARIOv1_TBL_HABILIDADES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:56:04 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1A3D5D4-B5C7-EFCB-56A6-EC22337DC7F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88258636-57D6-F353-57C1-CEBA2333EF94" name="TBL_APROBACIONES_X_USUARIO_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:56:45 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB34F6F2-3897-AD7C-8C9F-599A784CE550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

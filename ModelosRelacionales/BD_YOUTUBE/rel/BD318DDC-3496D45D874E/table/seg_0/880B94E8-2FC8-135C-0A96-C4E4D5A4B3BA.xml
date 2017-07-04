@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="880B94E8-2FC8-135C-0A96-C4E4D5A4B3BA" name="TBL_ESTADO_NOTIFICACION">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:38:28 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_NOTIFICACION" id="5DC4F465-E583-D740-2D5C-CBFBC649E66F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:39:07 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_NOTIFICACION" id="95538FCD-D550-4F42-DEBB-528BADD3E7CF">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:39:23 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27943DFC-08A7-6D1F-BF4A-46B5ED87BCB3" name="TBL_ESTADO_NOTIFICACION_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:39:07 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DC4F465-E583-D740-2D5C-CBFBC649E66F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

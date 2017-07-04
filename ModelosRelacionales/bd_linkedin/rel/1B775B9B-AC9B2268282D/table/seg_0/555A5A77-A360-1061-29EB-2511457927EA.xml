@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="555A5A77-A360-1061-29EB-2511457927EA" name="TBL_LIKES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:22:28 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUBLICACION" id="F90ACD3C-CB0B-1A80-EF7D-F649E32B6B12">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:22:51 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BD6404E-ECC1-5FFD-30DB-81CB52C18366" referredColumn="0CB11F59-46B0-0C94-4F21-9FEE83893487"/>
+</associations>
+</Column>
+<Column name="CODIGO_COMENTARIO" id="D50907A7-C775-6BE1-2034-615AC8970799">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:22:57 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77260BAB-975F-38E1-BE9D-55249A3B7EDA" referredColumn="A5BF3515-9290-CCC3-6298-DA319B41A5C3"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="E3196EA8-145B-AB7C-E73A-761069F50027">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:23:03 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="524BC392-14BB-A86D-0E5D-4C22AB020855" referredColumn="9C9ED972-959B-29FD-2C0F-D3B6760543FB"/>
+</associations>
+</Column>
+<Column name="FECHA_LIKE" id="47776670-F3D7-89C4-AA02-98D757A62F55">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:22:46 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9EA09A5-57D7-0B7E-B66B-F3576692CF47" name="TBL_LIKES__UN">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:24:31 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F90ACD3C-CB0B-1A80-EF7D-F649E32B6B12"/>
+<colUsage columnID="D50907A7-C775-6BE1-2034-615AC8970799"/>
+<colUsage columnID="E3196EA8-145B-AB7C-E73A-761069F50027"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36484CBD-E719-326E-10AA-5DB7E860B690" name="TBL_LIKES_TBL_PUBLICACION_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:22:51 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F90ACD3C-CB0B-1A80-EF7D-F649E32B6B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F65F7B6-BF9F-286F-05A6-BFC548F79F88" name="TBL_LIKES_TBL_COMENTARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:22:57 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D50907A7-C775-6BE1-2034-615AC8970799"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B81E155C-53D9-7768-A1AE-719A40CAD423" name="TBL_LIKES_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:23:03 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3196EA8-145B-AB7C-E73A-761069F50027"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

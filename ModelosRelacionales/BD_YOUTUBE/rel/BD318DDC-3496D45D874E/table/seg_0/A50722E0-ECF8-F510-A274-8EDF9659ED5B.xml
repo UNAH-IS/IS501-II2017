@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A50722E0-ECF8-F510-A274-8EDF9659ED5B" name="TBL_SUSCRIPCIONES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:40:01 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CANAL" id="77E94BA1-3A6F-9BD6-36D6-747AD78C00A2">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:44:19 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61F0867A-0A38-E7E9-F142-7AF2107BCD57" referredColumn="D86E49BC-4128-D1BB-E2ED-A5669D0D1914"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="AFA4964F-17C5-7277-4588-C258BA3B5DD8">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:44:04 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E533B9F6-FF8E-40D0-0632-75034C7B131B" referredColumn="BBC431B6-23D8-C0B2-A9C6-6FE9EC170026"/>
+</associations>
+</Column>
+<Column name="FECHA_SUSCRIPCION" id="153871C6-7635-BFBB-394E-2F3200BDA31A">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:43:35 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTIFICACION" id="A50B5165-0D33-8778-6E41-BC0EBF7645C7">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:43:35 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F265BA8-F88F-4B42-F5C4-89A0C4DD1AA1" name="TBL_SUSCRIPCIONES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:45:07 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFA4964F-17C5-7277-4588-C258BA3B5DD8"/>
+<colUsage columnID="77E94BA1-3A6F-9BD6-36D6-747AD78C00A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D966354-5F2E-61FB-63D3-F654C0114586" name="TBL_SUSCRIPCIONES_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:44:04 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFA4964F-17C5-7277-4588-C258BA3B5DD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF32C15B-32D6-C7BD-A6C2-1A3727061D3B" name="TBL_SUSCRIPCIONES_TBL_CANALES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:44:19 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77E94BA1-3A6F-9BD6-36D6-747AD78C00A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

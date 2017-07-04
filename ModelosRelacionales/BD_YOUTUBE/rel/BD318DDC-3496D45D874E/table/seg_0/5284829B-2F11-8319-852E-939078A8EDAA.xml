@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5284829B-2F11-8319-852E-939078A8EDAA" name="TBL_PLATAFORMAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:29:05 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PLATAFORMAS" id="C37EBAAA-6E3A-FD4C-8A14-122E3523D99C">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:29:39 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PLATAFORMAS" id="9EE9E0D8-7197-C88E-1781-AA6310170FB2">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:29:39 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0634E005-E1C2-3318-B60D-381F64D52AA8" name="TBL_PLATAFORMAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:29:39 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C37EBAAA-6E3A-FD4C-8A14-122E3523D99C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

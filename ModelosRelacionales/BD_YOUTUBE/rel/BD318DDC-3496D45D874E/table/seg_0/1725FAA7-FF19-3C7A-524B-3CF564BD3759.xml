@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1725FAA7-FF19-3C7A-524B-3CF564BD3759" name="TBL_IDIOMAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 17:56:06 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_IDIOMA" id="2E4DF449-B57C-CAC4-4CAB-308D246D5157">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:33:43 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_IDIOMA" id="30547C83-3BBF-8481-418B-6707949799C5">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:33:43 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="E1FBF9C8-774F-EEAD-737F-29D130627066">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:33:43 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4F7730A-E899-DC07-7935-BBE3E50FFF3A" name="TBL_IDIOMAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:33:43 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E4DF449-B57C-CAC4-4CAB-308D246D5157"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

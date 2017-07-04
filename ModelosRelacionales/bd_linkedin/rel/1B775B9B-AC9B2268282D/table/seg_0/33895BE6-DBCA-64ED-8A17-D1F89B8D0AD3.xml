@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33895BE6-DBCA-64ED-8A17-D1F89B8D0AD3" name="TBL_HABILIDADES_X_USUARIO">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:52:53 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="8CE7C5E0-624D-E3E2-18F1-B77B9BEBDE33">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:53:34 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04534000-9D9C-E20E-A055-ECD7960132BD" referredColumn="9C9ED972-959B-29FD-2C0F-D3B6760543FB"/>
+</associations>
+</Column>
+<Column name="CODIGO_HABILIDAD" id="1572B401-6911-70F3-D169-14FF7ED19667">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:53:45 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01F8FE4C-D718-828C-FD08-86FDF72B8549" referredColumn="C928F755-042C-A1F3-E15F-EECE89EF6242"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09AF2FC2-4A7A-918D-1274-746C0B5661EA" name="TBL_HABILIDADES_X_USUARIO_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:54:36 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CE7C5E0-624D-E3E2-18F1-B77B9BEBDE33"/>
+<colUsage columnID="1572B401-6911-70F3-D169-14FF7ED19667"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E3CE85B-EAD8-051B-ED34-BDD47CB7CB76" name="TBL_HABILIDADES_X_USUARIO_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:53:34 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CE7C5E0-624D-E3E2-18F1-B77B9BEBDE33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4C90030-0081-769F-D03D-8F1AE0D3AD0A" name="TBL_HABILIDADES_X_USUARIO_TBL_HABILIDADES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 03:53:45 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1572B401-6911-70F3-D169-14FF7ED19667"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

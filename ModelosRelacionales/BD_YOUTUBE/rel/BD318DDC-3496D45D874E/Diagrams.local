@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="76F0CCC7-6DD9-BD7A-2D21-9ED9C29AF820" name="Youtube" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="205132B6-83FF-0185-3961-C10794750A28" name="TBL_TIPOS_LOGROS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:20:39 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LOGRO" id="DFC4DB24-0937-DE96-61DD-5F4C7962FC5B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:21:15 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_LOGRO" id="112D3DB5-4329-B4FB-2928-63FE54743A33">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:21:15 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D34CBCDF-1526-7903-703B-54788082F962" name="TBL_TIPOS_LOGROS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:21:15 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFC4DB24-0937-DE96-61DD-5F4C7962FC5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

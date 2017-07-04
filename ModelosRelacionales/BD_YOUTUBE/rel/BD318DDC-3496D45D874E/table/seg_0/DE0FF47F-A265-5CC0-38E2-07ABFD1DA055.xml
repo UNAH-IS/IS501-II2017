@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE0FF47F-A265-5CC0-38E2-07ABFD1DA055" name="TBL_REGISTRO_PAGOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:23:06 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAGO" id="8A5B78CC-E041-F032-5EF7-DD1DF56AF97E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:25:13 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_VIDEO" id="00ABAF1A-97D8-1036-EA67-A8F8361CACC1">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:26:14 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC6C5749-38CB-FFA5-1604-631587F0542F" referredColumn="EDFE2C35-6F88-E1C6-04F2-FEC5EFC48837"/>
+</associations>
+</Column>
+<Column name="FECHA_EFECTIVIDAD_PAGO" id="BDDE9AF7-2191-9879-4387-D4BFCF662462">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:25:13 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="98FE6BB8-A57F-A1A4-E794-C10378585CA0">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:25:13 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="8C4F68AF-EBEC-54E3-2A17-49AF7DC99622">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:25:13 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05C4B5D9-776B-885A-E76C-DB37A6F77674" name="TBL_REGISTRO_PAGOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:25:56 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A5B78CC-E041-F032-5EF7-DD1DF56AF97E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4448673-909C-B1BC-5048-FD46A29FB3A2" name="TBL_REGISTRO_PAGOS_TBL_VIDEOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:26:14 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00ABAF1A-97D8-1036-EA67-A8F8361CACC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

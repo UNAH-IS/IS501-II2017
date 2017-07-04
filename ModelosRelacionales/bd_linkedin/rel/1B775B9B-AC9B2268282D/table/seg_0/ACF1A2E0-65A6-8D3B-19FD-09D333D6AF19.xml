@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACF1A2E0-65A6-8D3B-19FD-09D333D6AF19" name="TBL_GENEROS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:12:42 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GENERO" id="54EF70C4-853B-2F2B-CA34-5DB0CF67CF8B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:13:18 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_GENERO" id="37623325-4753-CC80-856D-D34E678E71D8">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:13:18 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECF4A944-9F42-C286-55CD-1E42D2AA8842" name="TBL_GENEROS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:13:18 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54EF70C4-853B-2F2B-CA34-5DB0CF67CF8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

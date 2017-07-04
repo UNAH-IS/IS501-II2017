@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2927CFE5-A136-8DB7-2DD0-DC7D901CBC3F" mainViewID="21386290-4C95-787D-65C4-8771C80CFCA8">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7BC93101-99C8-468C-DF94-202A89D7B7E8" mainViewID="802D5B61-48E3-C0BE-0CE8-BCE0A90FF802">
 <createdBy>ErickVladimir</createdBy>
-<createdTime>2017-06-12 19:21:37 UTC</createdTime>
-<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<createdTime>2017-02-16 19:08:49 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

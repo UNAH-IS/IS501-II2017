@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03998E3D-57C8-B60A-B4E6-055A9863FF7B" name="TBL_LISTAS_REPRODUCCION">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:44:28 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LISTA_REPRODUCCION" id="4FEE3E4E-C4A7-5BAE-1A79-54EAACD43B02">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:46:01 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="5C2C07B5-C463-BA03-D244-329347BC1663">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:46:55 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACF14AD5-CF55-F810-648E-0311140464C7" referredColumn="BBC431B6-23D8-C0B2-A9C6-6FE9EC170026"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_LISTA" id="1DD5125C-1CFB-D677-D686-0DF55A5EE21B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:52:23 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="872D9245-6B94-99E7-406E-DEA88D24C79C" referredColumn="281DAEC2-C93E-70EF-C233-BA599338FE6A"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LISTA" id="C031EEAF-EA6C-906F-028C-D1A819D12400">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:46:01 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="FBA64D71-1FB1-EF7D-EE2F-30E3F1B75AB5">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:46:01 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL_VIDEO_CARATULA" id="EE1C98C0-C2AF-37C6-DDE9-F16C4FE600B3">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:46:01 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="15BB995E-0A38-18A1-753F-B7E853E51C28">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:46:01 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F30E4C54-2FA1-CBB1-D58D-9DA1972F85F0" name="TBL_LISTAS_REPRODUCCION_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:46:01 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FEE3E4E-C4A7-5BAE-1A79-54EAACD43B02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3DBC2D2-B695-5A58-B461-519785E8CA10" name="TBL_LISTAS_REPRODUCCION_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:46:55 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C2C07B5-C463-BA03-D244-329347BC1663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62519A25-AC9B-ABF1-0C0B-A882FD6E9ACD" name="TBL_LISTAS_REPRODUCCION_TBL_TIPOS_LISTAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:52:23 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DD5125C-1CFB-D677-D686-0DF55A5EE21B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.multidimensional.DPVMultidimensional" name="Multidimensional_1" id="8DA1E29C-16E5-EFC2-DEBF-5C668B14E7A6">
+<createdBy>ErickVladimir</createdBy>
+<modifiedBy>ErickVladimir</modifiedBy>
+<createdTime>2017-03-07 16:08:18 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<compactDiagram class="oracle.dbtools.crest.swingui.multidimensional.DPVCompactMultidimentional" name="Multidimensional_1 - Compact Diagram" id="2F8996B6-F10C-4D9C-70CE-89C3441A8919">
+<createdBy>ErickVladimir</createdBy>
+<modifiedBy>ErickVladimir</modifiedBy>
+<createdTime>2017-03-07 16:08:18 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+</compactDiagram>
+</Diagram>

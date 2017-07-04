@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EFDDA69-1BD0-A4C1-ED95-FCC8C57EB8C5" name="TBL_TIPOS_REACCIONES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:38:36 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_REACCION" id="59B3D10F-9BB5-4ADF-9ADD-48C0DCC67A0F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:40:40 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_REACCION" id="24F51DAF-DD52-5A71-7373-599F8157A8AF">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:40:40 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICONO" id="4332397B-B48B-DF11-39D7-8B4E2614A59E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:40:40 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D976BC1-179E-B3F8-D36A-58DC51416760" name="TBL_TIPOS_REACCIONES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-16 19:40:40 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59B3D10F-9BB5-4ADF-9ADD-48C0DCC67A0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

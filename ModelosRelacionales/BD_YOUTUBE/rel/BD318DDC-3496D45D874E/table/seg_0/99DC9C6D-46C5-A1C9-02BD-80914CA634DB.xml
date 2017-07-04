@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99DC9C6D-46C5-A1C9-02BD-80914CA634DB" name="TBL_TIPOS_NOTIFICACIONES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:35:12 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_NOTIFICACION" id="3296D046-C411-7D4E-2D9F-EA2B4D0850C4">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:36:10 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_NOTIFICACION" id="AC5C8EA0-DABD-5139-5D35-E27E9788F6B7">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:36:27 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05ECE29A-2C51-3D2A-C577-50677C18B357" name="TBL_TIPOS_NOTIFICACIONES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:37:17 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3296D046-C411-7D4E-2D9F-EA2B4D0850C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

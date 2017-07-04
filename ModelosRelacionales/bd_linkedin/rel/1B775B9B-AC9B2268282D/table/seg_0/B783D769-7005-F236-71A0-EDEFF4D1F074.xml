@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B783D769-7005-F236-71A0-EDEFF4D1F074" name="TBL_OFERTAS_X_USUARIO">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:46:29 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="8D86D033-B2DE-2031-FC05-FB073D85DD60">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:46:46 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D19FA90-63A3-0845-B2BE-181A2D1C7616" referredColumn="9C9ED972-959B-29FD-2C0F-D3B6760543FB"/>
+</associations>
+</Column>
+<Column name="CODIGO_OFERTA_LABORAL" id="EFC59F76-1B7B-99C3-0574-7DF11E6FD554">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:46:50 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC102391-C676-261C-ECF9-19D1EBA12826" referredColumn="E8EDCBCD-474E-0D8E-E3C4-E3A5D726A823"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C14B6A47-2874-0FBA-8E07-C6D03F86E601" name="TBL_OFERTAS_X_USUARIO_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:49:54 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFC59F76-1B7B-99C3-0574-7DF11E6FD554"/>
+<colUsage columnID="8D86D033-B2DE-2031-FC05-FB073D85DD60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53BEF3E1-AC9C-75B1-0C5F-73ADAE36557F" name="TBL_OFERTAS_X_USUARIO_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:46:46 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D86D033-B2DE-2031-FC05-FB073D85DD60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBB13826-6A2D-3454-3A25-96E9E0F3BBDD" name="TBL_OFERTAS_X_USUARIO_TBL_OFERTAS_LABORALES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-09 16:46:50 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFC59F76-1B7B-99C3-0574-7DF11E6FD554"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

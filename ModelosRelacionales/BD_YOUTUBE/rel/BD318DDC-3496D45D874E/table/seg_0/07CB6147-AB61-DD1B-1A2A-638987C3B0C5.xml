@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07CB6147-AB61-DD1B-1A2A-638987C3B0C5" name="TBL_ARTISTAS_X_VIDEO">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:36:19 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VIDEO" id="B46B05BA-27B7-DF5E-C397-1E18EC01FCAF">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:37:35 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F842EB22-F9EE-D9D0-E0FF-537F3AA1F2E9" referredColumn="EDFE2C35-6F88-E1C6-04F2-FEC5EFC48837"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARTISTAS" id="C83A2369-31C9-1944-351E-F80E01CBF86E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:37:50 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40F3080A-F8DE-28BE-A90C-0AFF56AF02EE" referredColumn="541A4DDF-0E81-C56A-F7D0-483BA949E117"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74A52CAD-B157-47C5-25D7-7874EB2543C8" name="TBL_ARTISTAS_X_VIDEO_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:38:29 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B46B05BA-27B7-DF5E-C397-1E18EC01FCAF"/>
+<colUsage columnID="C83A2369-31C9-1944-351E-F80E01CBF86E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3861A8AE-B0D0-D52E-930A-71A41FF083CB" name="TBL_ARTISTAS_X_VIDEO_TBL_VIDEOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:37:35 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B46B05BA-27B7-DF5E-C397-1E18EC01FCAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DDF9529-5FB1-FAA6-B4F8-EDCC24EFCBA4" name="TBL_ARTISTAS_X_VIDEO_TBL_ARTISTAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-20 19:37:50 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C83A2369-31C9-1944-351E-F80E01CBF86E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1546CF55-F8B9-B1EC-F4D3-7B741C7A429F" name="TBL_TITULOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:22:32 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TITULO" id="18D9517C-04BF-7719-87E0-9E3A01484753">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:23:01 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8A7DCEA-B946-5C50-AFD7-8D3F1DC0CD86" referredColumn="34D0A482-CA5E-C347-583E-534D678A4718"/>
+</associations>
+</Column>
+<Column name="Column_2" id="A34E478B-FA0E-2A35-D8B3-DCD4BE66CACD">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:25:00 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_3" id="51667035-8A94-A896-968E-75BA8CF3ED12">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:25:00 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_4" id="CFDA317C-7961-DF48-F0ED-12F942109B51">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:25:00 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71E21FA2-8F15-49E9-7005-913BBB4E973D" name="TBL_TITULOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:24:39 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18D9517C-04BF-7719-87E0-9E3A01484753"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5079E2BC-52AE-CC75-6233-F0E1BAF4B6C4" name="TBL_TITULOS_TBL_LOGROS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-03-07 16:23:01 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18D9517C-04BF-7719-87E0-9E3A01484753"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

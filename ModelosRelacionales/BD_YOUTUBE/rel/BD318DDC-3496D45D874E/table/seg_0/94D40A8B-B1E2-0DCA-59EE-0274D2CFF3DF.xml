@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94D40A8B-B1E2-0DCA-59EE-0274D2CFF3DF" name="TBL_TIPOS_CANALES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:46:13 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_CANAL" id="E51C248D-2CA1-D4EC-E772-959DA4A4E51B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:50:30 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_CANAL" id="628B2312-C8F1-5CBD-4E51-14B4A6330F34">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:50:30 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A373E9A-D7BD-6397-DAD2-A945680A8B1A" name="TBL_TIPOS_CANALES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-17 19:50:30 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E51C248D-2CA1-D4EC-E772-959DA4A4E51B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

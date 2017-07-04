@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0087E8F5-5468-CBDB-CDCD-CCAC7D821724" name="TBL_TENDENCIAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:15:12 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POSICION" id="E8D1C097-1224-80D2-45C5-A6C15FD879F0">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:17:38 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR" id="EF816678-538C-F9C6-7202-842AB2B62931">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:17:51 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52DC722B-EB1D-BF4D-2C8B-C1CEE319A684" referredColumn="686E29D9-75C0-D0D7-B8E7-8713010A66F6"/>
+</associations>
+</Column>
+<Column name="CODIGO_VIDEO" id="10146926-3F43-4781-0005-6BA20729D100">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:18:33 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7102695-76A5-F0C3-BCE0-9922AC78AD7C" referredColumn="EDFE2C35-6F88-E1C6-04F2-FEC5EFC48837"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="512D05B9-1A4F-72E5-CEF7-FF41EA5C9B91" name="TBL_TENDENCIAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:19:59 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8D1C097-1224-80D2-45C5-A6C15FD879F0"/>
+<colUsage columnID="EF816678-538C-F9C6-7202-842AB2B62931"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F8DB520-F2B8-BC1F-F745-25607940DE20" name="TBL_TENDENCIAS_TBL_LUGARES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:17:51 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF816678-538C-F9C6-7202-842AB2B62931"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3285B4A1-0C0A-BCA7-9D35-619362287EC2" name="TBL_TENDENCIAS_TBL_VIDEOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-21 19:18:33 UTC</createdTime>
+<ownerDesignName>bd_youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10146926-3F43-4781-0005-6BA20729D100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
