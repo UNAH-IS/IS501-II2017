@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D608FD9-B9E5-ABA6-691F-EC0BE5CFA2B0" name="TBL_CANALES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:10:17 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CANAL" id="DCCA24CA-A462-646E-810D-20D1D0B3F283">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:12:42 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="531A2D63-78A7-D82B-6496-E94AA72CA165">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:12:52 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="581EF567-63AA-C2DE-FE89-3BFC8374D5C5" referredColumn="11AD8E5F-719F-7AC0-D964-DA7EADAC4641"/>
+</associations>
+</Column>
+<Column name="NOMBRE_CANAL" id="4326FCCC-0DDB-41D5-79F2-9219298DD15F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:12:42 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL" id="3DC48DAF-94FF-E44E-7295-4439D0F8C952">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:12:42 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="018012B2-0659-734A-2D6D-FA8F5B7C96FF">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:12:42 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO_PERFIL" id="FD2AB402-3365-41A8-0644-56FFD694ED80">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:12:42 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGEN_FONDO" id="6D877C13-5E24-F731-69ED-3EC73A9F1EBC">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:12:42 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="CE6E05EB-EBCB-0258-CB60-7B4251F1838B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:13:10 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_SUSCRIPTORES" id="0833A18A-FC1E-3451-90A1-DC1B0E622922">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:28:09 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91E3FFE3-A9A8-CF10-85B8-F505FA2B50AA" name="TBL_CANALES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:12:42 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCCA24CA-A462-646E-810D-20D1D0B3F283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED77D4DE-E256-18CD-0065-F870CFA55715" name="TBL_CANALES_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:12:52 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="531A2D63-78A7-D82B-6496-E94AA72CA165"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

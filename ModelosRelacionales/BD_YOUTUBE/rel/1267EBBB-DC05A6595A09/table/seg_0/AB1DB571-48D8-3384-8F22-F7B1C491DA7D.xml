@@ -12,6 +12,7 @@
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-06-12 19:46:20 UTC</createdTime>
 <ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -50,6 +51,21 @@
 <colAssociation fkAssociation="0E76F162-77D5-827D-C2AD-D7938DD60807" referredColumn="22711D39-9BB4-14AD-EE96-F80E69B77292"/>
 </associations>
 </Column>
+<Column name="CODIGO_COMENTARIO" id="7BF2DEAF-2FAC-0C46-5C88-B071912B20FF">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:40:32 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97E70ED2-481C-F08A-8A54-2F543E6AAC0C" referredColumn="5765C2CE-8132-C58A-1C1A-208C5FACD728"/>
+</associations>
+</Column>
 <Column name="FECHA_REACCION" id="282B3C5F-EC29-981F-2E39-D207D3DDE64D">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-06-12 19:45:13 UTC</createdTime>
@@ -63,17 +79,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AA931C75-9846-E1AA-544C-1B44E47299D2" name="TBL_REACCIONES_PK">
+<ind_PK_UK id="C28DB2C1-EAB3-084E-6878-D6E967C18654" name="TBL_REACCIONES__UN">
 <createdBy>ErickVladimir</createdBy>
-<createdTime>2017-06-12 19:47:47 UTC</createdTime>
+<createdTime>2017-06-15 19:53:28 UTC</createdTime>
 <ownerDesignName>BD_YOUTUBE</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
+<indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C9C14078-579D-562A-6CD0-ADE28108B12B"/>
 <colUsage columnID="204121DD-E230-CB21-92C8-3A8C391BDB69"/>
+<colUsage columnID="C9C14078-579D-562A-6CD0-ADE28108B12B"/>
 <colUsage columnID="4671E4F6-C9E5-9113-7590-AF043538499E"/>
+<colUsage columnID="7BF2DEAF-2FAC-0C46-5C88-B071912B20FF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="1EEA0017-F5EC-0945-2A7D-909000CEEA2D" name="TBL_REACCIONES_TBL_TIPOS_REACCIONES_FK">
@@ -104,6 +120,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C9C14078-579D-562A-6CD0-ADE28108B12B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB22A720-E807-689D-D9E6-33132095CE65" name="TBL_REACCIONES_TBL_COMENTARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:40:32 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BF2DEAF-2FAC-0C46-5C88-B071912B20FF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

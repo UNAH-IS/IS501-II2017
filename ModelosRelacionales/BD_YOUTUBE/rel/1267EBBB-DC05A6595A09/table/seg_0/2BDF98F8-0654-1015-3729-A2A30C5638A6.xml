@@ -46,6 +46,20 @@
 <colAssociation fkAssociation="9F722923-09D8-5214-54CA-135DEBF15A29" referredColumn="9D53FBC1-2901-0873-23C4-A5363B7CBB8F"/>
 </associations>
 </Column>
+<Column name="CODIGO_CANAL" id="746094ED-661D-B9CA-C27C-2183FFFE3786">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:14:01 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89568227-E626-2269-6DF2-1F53DA475FF9" referredColumn="DCCA24CA-A462-646E-810D-20D1D0B3F283"/>
+</associations>
+</Column>
 <Column name="NOMBRE_VIDEO" id="BEDA9432-ADD5-AC67-C62D-4FE5BF3F7AF6">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-06-12 19:36:38 UTC</createdTime>
@@ -133,6 +147,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="414917C9-AFFF-3218-0E81-455E6BC947D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C69697BD-84F8-6252-7749-17E32CA66057" name="TBL_VIDEOS_TBL_CANALES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:14:01 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="746094ED-661D-B9CA-C27C-2183FFFE3786"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC985E21-3784-A10B-5DFB-6FB59E179400" name="TBL_TIPOS_LISTAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:22:54 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LISTA" id="0E480673-BF30-2DB8-B848-1794AF012770">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:23:39 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_LISTA" id="160F439A-66CC-0040-BC33-C85210DD3D8B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:23:39 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8ABFFFB2-3C55-0EEF-FF0D-94E6F49D3CE6" name="TBL_TIPOS_LISTAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:23:39 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E480673-BF30-2DB8-B848-1794AF012770"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

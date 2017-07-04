@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2DBB227-27B7-BB00-82BA-DF90160798DB" name="TBL_SUSCRIPCIONES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:24:33 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="EC8956D8-9385-988C-2702-2EB41B79B96C">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:26:27 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C988556A-923E-3718-124D-AA8FCD342AC0" referredColumn="11AD8E5F-719F-7AC0-D964-DA7EADAC4641"/>
+</associations>
+</Column>
+<Column name="CODIGO_CANAL" id="646D7EB0-E607-65A1-F1A7-FBB5668463E2">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:26:56 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA9E7BAC-29E0-49FD-7509-372BE0B1E291" referredColumn="DCCA24CA-A462-646E-810D-20D1D0B3F283"/>
+</associations>
+</Column>
+<Column name="FECHA_SUSCRIPCION" id="52846929-602A-F46E-9A56-F654C92AB217">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:25:45 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECIBIR_NOTIFICACIONES" id="29EFEE41-1E25-DBB9-6165-01A4C9D7A596">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:25:45 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7345067-B7EF-7A79-D03C-5C52CE1410F9" name="TBL_SUSCRIPCIONES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:27:55 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC8956D8-9385-988C-2702-2EB41B79B96C"/>
+<colUsage columnID="646D7EB0-E607-65A1-F1A7-FBB5668463E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F71A94F7-B22A-B339-4833-CE0E996CE6D0" name="TBL_SUSCRIPCIONES_TBL_USUARIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:26:27 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC8956D8-9385-988C-2702-2EB41B79B96C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75D96C78-8E90-57C5-E305-E0DFAF80B42D" name="TBL_SUSCRIPCIONES_TBL_CANALES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-06-15 19:26:56 UTC</createdTime>
+<ownerDesignName>BD_YOUTUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="646D7EB0-E607-65A1-F1A7-FBB5668463E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
