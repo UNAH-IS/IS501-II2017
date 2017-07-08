@@ -58,6 +58,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="SOLICITUD_APROBADA" id="7EAF689B-96E8-D6A8-5B25-B2A43C0E59CE">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-07-05 19:33:05 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F0A72057-5165-BCB7-EA88-4369B1F5C591" name="TBL_EMPRESAS_X_USUARIOS_TBL_USUARIOS_FK">

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E564121-36E3-4B97-698B-A8117C2735C8" name="TBL_HABILIDADES_X_OFERTA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-07-05 19:35:43 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_OFERTA_LABORAL" id="C54C9261-3AE1-B2C9-CB59-0EDDC07D9996">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-07-05 19:36:11 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08979318-8475-3CBF-4953-ED93FD0FDB57" referredColumn="E8EDCBCD-474E-0D8E-E3C4-E3A5D726A823"/>
+</associations>
+</Column>
+<Column name="CODIGO_HABILIDAD" id="03C52A3A-B46C-8DEB-D35F-366A83F0A93E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-07-05 19:36:29 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC5F8AF9-1E46-0FFC-977A-CD4444ED9AC1" referredColumn="C928F755-042C-A1F3-E15F-EECE89EF6242"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ED0D551-4159-070F-05A6-B321CA8AB43B" name="TBL_HABILIDADES_X_OFERTA_TBL_OFERTAS_LABORALES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-07-05 19:36:11 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C54C9261-3AE1-B2C9-CB59-0EDDC07D9996"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57957599-FDBB-AFF5-7EC1-CC1377825365" name="TBL_HABILIDADES_X_OFERTA_TBL_HABILIDADES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-07-05 19:36:29 UTC</createdTime>
+<ownerDesignName>bd_linkedin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03C52A3A-B46C-8DEB-D35F-366A83F0A93E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

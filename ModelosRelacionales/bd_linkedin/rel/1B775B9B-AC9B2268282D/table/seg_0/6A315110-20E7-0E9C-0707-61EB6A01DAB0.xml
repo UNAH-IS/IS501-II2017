@@ -51,7 +51,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TBL_EMPRESAS_CODIGO_EMPRESA" id="A0063F0F-B823-6618-2EBE-97AFB40F7052">
+<Column name="CODIGO_EMPRESA" id="A0063F0F-B823-6618-2EBE-97AFB40F7052">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-03-09 16:45:59 UTC</createdTime>
 <ownerDesignName>bd_linkedin</ownerDesignName>

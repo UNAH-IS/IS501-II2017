@@ -55,7 +55,7 @@
 <colAssociation fkAssociation="06DD2520-717D-3574-C275-C2F3262F01DA" referredColumn="0CB11F59-46B0-0C94-4F21-9FEE83893487"/>
 </associations>
 </Column>
-<Column name="CODIGO_COMENTARIO_1" id="DB8660EF-18A1-8210-BCF0-3DC3ECB41DB5">
+<Column name="CODIGO_COMENTARIO_SUPERIOR" id="DB8660EF-18A1-8210-BCF0-3DC3ECB41DB5">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-03-09 03:20:35 UTC</createdTime>
 <ownerDesignName>bd_linkedin</ownerDesignName>
