@@ -1,0 +1,42 @@
+CREATE TABLE TMP (
+    CODIGO INTEGER,
+    FECHA DATE
+);
+
+DECLARE
+    v_i INTEGER:=0;
+BEGIN
+    LOOP
+        --DBMS_OUTPUT.PUT_LINE('ITERACION '||v_i);
+        INSERT INTO TMP(CODIGO, FECHA)
+        VALUES (V_I, SYSDATE);
+        
+        V_I:=V_I+1;
+        EXIT WHEN V_I>1000000;
+    END LOOP;
+    COMMIT;
+END;
+
+DECLARE
+    v_i INTEGER:=0;
+BEGIN
+    WHILE (V_I<10)
+    LOOP
+        --DBMS_OUTPUT.PUT_LINE('ITERACION '||v_i);
+        INSERT INTO TMP(CODIGO, FECHA)
+        VALUES (V_I, SYSDATE);    
+        V_I:=V_I+1;
+    END LOOP;
+    COMMIT;
+END;
+
+
+BEGIN
+    FOR V_I IN REVERSE  1 .. 10 LOOP
+        INSERT INTO TMP(CODIGO, FECHA)
+        VALUES (V_I, SYSDATE);
+    END LOOP;
+END;
+
+TRUNCATE TABLE TMP;
+SELECT * FROM TMP;
